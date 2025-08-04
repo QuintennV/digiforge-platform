@@ -38,9 +38,10 @@ jobs:
           cd digiforge-platform/docker-test-app
           docker build -t digiforge-app .
           
-          # Check for and remove any container using port 8080
+          # Check for and remove any old container using port 8080
           docker ps --filter "publish=8080" -q | xargs -r docker stop
           docker ps -a --filter "publish=8080" -q | xargs -r docker rm
+          docker rm -f digiforge-running 2>/dev/null || true
           
           # Run the container
           docker run -d -p 8080:8080 --name digiforge-running digiforge-app
