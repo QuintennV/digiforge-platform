@@ -19,7 +19,7 @@ jobs:
         host: ${{ secrets.VM_HOST }}
         username: ${{ secrets.VM_USER }}
         key: ${{ secrets.VM_KEY }}
-        source: "."                        # Send everything
+        source: "./"                        # Send everything
         target: "/home/${{ secrets.VM_USER }}/digiforge-platform"
 
     - name: Deploy on Azure VM via SSH
@@ -29,6 +29,9 @@ jobs:
         username: ${{ secrets.VM_USER }}
         key: ${{ secrets.VM_KEY }}
         script: |
+          # Remove old versions of the repo for cleanliness
+          rm -rf /home/${{ secrets.VM_USER }}/digiforge-platform
+          
           cd digiforge-platform
           
           # Stop and remove all existing containers
