@@ -29,22 +29,15 @@ jobs:
         username: ${{ secrets.VM_USER }}
         key: ${{ secrets.VM_KEY }}
         script: |
-          # Testing script to 
           echo "=== HOME CONTENTS ==="
           ls -la /home/${{ secrets.VM_USER }}
         
           cd /home/${{ secrets.VM_USER }}/digiforge-platform
           ls -la
-          docker compose down || true
-          docker compose up --build -d
-          
-          # Remove old versions of the repo for cleanliness
-          rm -rf /home/${{ secrets.VM_USER }}/digiforge-platform
-          
-          cd digiforge-platform
-          
-          # Stop and remove all existing containers
-          docker compose down || true
-          
-          # Rebuild and restart everything
+        
+          echo "=== Removing stuck containers ==="
+          docker compose down --remove-orphans || true
+          docker rm -f ui-dashboard || true
+        
+          echo "=== Rebuilding containers ==="
           docker compose up --build -d
