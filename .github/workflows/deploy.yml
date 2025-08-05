@@ -38,6 +38,9 @@ jobs:
           echo "=== Removing stuck containers ==="
           docker compose down --remove-orphans || true
           docker rm -f ui-dashboard || true
+          docker kill $(docker ps -q) || true
+          docker rm $(docker ps -a -q) || true
+          docker network prune -f || true
         
           echo "=== Rebuilding containers ==="
           docker compose up --build -d
