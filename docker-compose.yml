@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+  sim-service:
+    build: ./sim-service
+    ports:
+      - "5001:5001"
+    container_name: sim-service
+    restart: always
+
+  alert-service:
+    build: ./analytics-service
+    ports:
+      - "5002:5002"
+    container_name: analytics-service
+    restart: always
+    depends_on:
+      - sim-service
+
+  kg-service:
+    build: ./kg-service
+    ports:
+      - "5003:5003"
+    container_name: kg-service
+    restart: always
+
+  ui-dashboard:
+    build: ./ui-dashboard
+    ports:
+      - "8080:8080"   # This is the ONLY service exposed publicly
+    container_name: ui-dashboard
+    restart: always
+    depends_on:
+      - alert-service
+      - sim-service
