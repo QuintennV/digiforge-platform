@@ -29,6 +29,15 @@ jobs:
         username: ${{ secrets.VM_USER }}
         key: ${{ secrets.VM_KEY }}
         script: |
+          # Testing script to 
+          echo "=== HOME CONTENTS ==="
+          ls -la /home/${{ secrets.VM_USER }}
+        
+          cd /home/${{ secrets.VM_USER }}/digiforge-platform
+          ls -la
+          docker compose down || true
+          docker compose up --build -d
+          
           # Remove old versions of the repo for cleanliness
           rm -rf /home/${{ secrets.VM_USER }}/digiforge-platform
           
