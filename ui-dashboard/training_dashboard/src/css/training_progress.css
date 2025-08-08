@@ -1,0 +1,40 @@
+.panel-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #d0d0d0;
+  padding: 20px;
+  border: 2px solid #1e293b; 
+  border-radius: 8px;
+  background-color: #5c3587;  
+  text-align: center;
+}
+
+.progress-panel {
+  color: #f8eaff;
+  padding: 24px;
+  margin: 48px;
+  height: 82%;
+}
+
+
+.progress-panel h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ffddff;
+}
+
+.progress-panel p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f0e7ff;
+  margin-top: 10px;
+}
+
+.error {
+  color: #ff6b6b;
+  font-weight: bold;
+  background-color: rgba(255, 107, 107, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}

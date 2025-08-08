@@ -1,0 +1,5 @@
+This includes daily checks like cleaning chips and debris from the machine, inspecting and topping off coolant and lubricant levels, and checking for any visible signs of wear or damage. Operators are usually responsible for these basic tasks at the beginning and end of each shift.
+
+On a weekly or monthly basis, maintenance staff or trained operators may perform more detailed inspections. These include checking spindle condition, inspecting way covers, verifying tool changer function, examining belts or hydraulic systems, and ensuring sensors and safety features are functioning correctly. 
+
+Proper maintenance during normal operation helps prevent unplanned downtime, extends machine lifespan, and keeps part quality consistent. Keeping detailed records of maintenance tasks, repairs, and issues is also part of good operational practice, allowing shops to track wear patterns and schedule service before problems become costly failures.

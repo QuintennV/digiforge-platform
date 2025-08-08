@@ -1,0 +1,5 @@
+Sensor diagnosis in CNC machines involves monitoring and analyzing the data coming from various sensors—like temperature, vibration, position, and force sensors—to detect faults, abnormalities, or cyberattacks. Because CNC machines rely heavily on sensor feedback for precise control and safety, diagnosing sensor issues early helps prevent mechanical failures, production errors, or unsafe conditions.
+
+By continuously comparing real-time sensor readings against expected patterns or thresholds, a sensor diagnosis system can identify when a sensor is malfunctioning, providing faulty data, or being spoofed by an attacker. For example, if a vibration sensor suddenly shows abnormal spikes without corresponding machine activity, it could indicate a sensor failure or an attempt to manipulate the machine’s operation remotely.
+
+Effective sensor diagnosis combines automated alerts, trend analysis, and sometimes AI-driven anomaly detection to flag problems early.

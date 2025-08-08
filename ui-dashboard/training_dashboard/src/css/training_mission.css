@@ -1,0 +1,82 @@
+
+.side-panel {
+  width: 300px;
+  height: 87.5%; 
+  background-image: linear-gradient(to right , black, #2c092f);
+  padding: 20px;
+  margin-top: 52px;
+}
+
+
+.panel-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #d0d0d0;
+  padding: 20px;
+  border: 2px solid #1e293b; 
+  border-radius: 8px;
+  background-color: #5c3587;  
+  text-align: center;
+}
+
+.mission-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #1e293b; 
+  border-radius: 8px;
+  background-image: repeating-linear-gradient(#5c3587, black)
+}
+
+.mission-item {
+  padding: 24px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+  color: #cbd5e1;
+  transition: background-color 0.2s ease;
+}
+
+
+.mission-item:hover {
+  background-color: #1e293b;
+}
+
+.mission-item.active {
+  background-color: transparent;  
+  color: #cbd5e1;
+}
+.mission-card.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.simulation-start-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(122, 92, 255, 0.3);
+  max-width: 600px;
+}
+
+.start-button {
+  background-color: #5e4b8b;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #bbb;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+}

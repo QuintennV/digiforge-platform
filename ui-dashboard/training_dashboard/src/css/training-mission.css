@@ -1,0 +1,11 @@
+p {
+   color: #646cff;
+}
+
+.mission-page {
+  padding-top: 80px;  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;  
+}
+

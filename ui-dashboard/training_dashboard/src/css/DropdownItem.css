@@ -1,0 +1,32 @@
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+
+/* If you still want to keep icons, you can keep this, otherwise remove */
+.dropdownItem img {
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: var(--speed);
+}
+
+.dropdownItem a,
+.dropdownItem button {
+  max-width: 100%;
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: var(--primary-text-color);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+  text-align: left;
+  transition: var(--speed);
+}
+
+.dropdownItem a:hover,
+.dropdownItem button:hover {
+  color: rgb(212, 33, 9);
+}

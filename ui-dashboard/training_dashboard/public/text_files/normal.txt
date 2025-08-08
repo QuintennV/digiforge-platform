@@ -1,0 +1,5 @@
+Normal operation in CNC machining refers to the standard, uninterrupted process of producing parts using pre-programmed instructions. It begins with setting up the machine, which includes loading the correct tools, securing the workpiece, setting work offsets, and ensuring the machine is clean and properly maintained. 
+
+Once verified, the machine executes the program automatically, performing tool changes, coolant delivery, and precise movements to cut the part according to the design. During this phase, the operator monitors the process for any signs of tool wear, part movement, or machine alarms. In-process inspections may be performed to ensure dimensional accuracy, and tool offsets can be adjusted as needed to maintain tolerances.
+
+At the end of the cycle, the part is unloaded, and the machine may be prepared for the next run. The operator cleans the work area, performs any necessary maintenance, and documents the job as required. 

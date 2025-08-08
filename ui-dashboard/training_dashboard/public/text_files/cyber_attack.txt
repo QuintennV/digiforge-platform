@@ -1,0 +1,5 @@
+A cyberattack on a CNC (Computer Numerical Control) machine typically involves manipulating the instructions that control its operations. By altering code, an attacker can cause the machine to produce defective or even dangerous parts without immediately raising suspicion. 
+
+Another common attack vector is gaining unauthorized access to the CNC machine’s control system through weak network security or compromised credentials. Once inside, attackers might deploy ransomware to lock down the machinery and halt production, causing costly downtime. They could also tamper with the machine’s firmware or sensors, leading to unpredictable behavior, tool damage, or safety hazards. 
+
+Such cyberattacks not only disrupt manufacturing processes but can also lead to intellectual property theft or long-term damage to equipment. In many cases, the consequences extend beyond financial loss, posing risks to worker safety and product integrity.
