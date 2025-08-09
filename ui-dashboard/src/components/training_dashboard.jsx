@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import TrainingMission from '../components/training_mission.jsx';
-import TrainingProgress from '../components/training_progress.jsx';
+import TrainingMission from './training_mission.jsx';
+import TrainingProgress from './training_progress.jsx';
 
 function TrainingDashboard() {
   const [selectedMission, setSelectedMission] = useState('');

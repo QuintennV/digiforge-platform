@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import DropdownItem from './DropdownItem';
+import DropdownItem from './DropdownItem.jsx';
 import "../css/DropdownMenu.css";
 
 // Import your image (adjust path as needed)
