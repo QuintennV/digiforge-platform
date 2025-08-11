@@ -27,7 +27,7 @@ services:
   ui-dashboard:
     build: ./ui-dashboard
     ports:
-      - "8080:8080"   # This is the ONLY service exposed publicly
+      - "8080:80"   # This is the ONLY service exposed publicly
     container_name: ui-dashboard
     restart: always
     depends_on:
