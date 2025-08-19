@@ -67,7 +67,7 @@ function TrainingProgress({ userSelection }) {
             state={{ scenario: userSelection }}
             className="nav-button"
           >
-            Would you like to start a simulation?
+            Would you like to start a simulation of a CNC system?
           </Link>
         </>
       )}
