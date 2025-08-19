@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import '../css/training-mission.css';
 
 function TrainingMissionPage() {
   const location = useLocation();
