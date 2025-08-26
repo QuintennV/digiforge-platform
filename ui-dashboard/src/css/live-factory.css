@@ -7,3 +7,28 @@
   min-width: 0;
 
 }
+
+.live-factory-container {
+  padding: 1rem;
+}
+
+.alert-description {
+  padding: 1rem;
+  border-radius: 8px;
+  background: blue; 
+  border-left: 5px solid orange;
+}
+
+.alert-description h3 {
+  margin: 0 0 0.5rem;
+}
+
+.alert-description ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.alert-description li {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
